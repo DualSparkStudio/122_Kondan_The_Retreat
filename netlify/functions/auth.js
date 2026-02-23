@@ -16,6 +16,8 @@ try {
 }
 
 export const handler = async (event, context) => {
+  // Log environment variables for debugging (without exposing values)
+  console.log('Environment check:', {
     SUPABASE_URL: process.env.VITE_SUPABASE_URL ? 'Set' : 'Missing',
     SUPABASE_ANON_KEY: process.env.VITE_SUPABASE_ANON_KEY ? 'Set' : 'Missing'
   })
