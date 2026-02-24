@@ -72,14 +72,15 @@ const Gallery: React.FC = () => {
       }
 
       // Add restaurant images from Cloudinary
+      // TODO: Add new Cloudinary URLs tomorrow
       const additionalImages: GalleryImage[] = [
-        { id: 200, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png', title: 'Restaurant Main View', category: 'restaurant' },
-        { id: 201, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png', title: 'Restaurant Interior', category: 'restaurant' },
-        { id: 202, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png', title: 'Dining Area', category: 'restaurant' },
-        { id: 203, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/5_vop9je.png', title: 'Restaurant Ambiance', category: 'restaurant' },
-        { id: 204, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/4_loalg6.png', title: 'Restaurant Seating', category: 'restaurant' },
-        { id: 205, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/3_apyy7q.png', title: 'Restaurant View', category: 'restaurant' },
-        { id: 206, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/1_hlb5eu.png', title: 'Restaurant Exterior', category: 'restaurant' },
+        // { id: 200, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png', title: 'Restaurant Main View', category: 'restaurant' },
+        // { id: 201, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png', title: 'Restaurant Interior', category: 'restaurant' },
+        // { id: 202, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png', title: 'Dining Area', category: 'restaurant' },
+        // { id: 203, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/5_vop9je.png', title: 'Restaurant Ambiance', category: 'restaurant' },
+        // { id: 204, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/4_loalg6.png', title: 'Restaurant Seating', category: 'restaurant' },
+        // { id: 205, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/3_apyy7q.png', title: 'Restaurant View', category: 'restaurant' },
+        // { id: 206, src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/1_hlb5eu.png', title: 'Restaurant Exterior', category: 'restaurant' },
       ]
 
       setImages([...staticImages, ...additionalImages])
