@@ -5,7 +5,7 @@ const supabaseUrl = process.env.VITE_SUPABASE_URL
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
-// Recalculated from Bhilar Annex (21 km from Mahabaleshwar center)
+// Recalculated from Kondan The Retreat location
 const accurateUpdates = [
   { name: 'Pratapgad Fort', distance: '45 km', travel_time: '1 hour 30 minutes', best_time: 'October to March (avoid monsoon)' },
   { name: 'Venna Lake', distance: '23 km', travel_time: '40 minutes', best_time: 'Year Round (best October to May)' },
@@ -30,7 +30,7 @@ const accurateUpdates = [
 ]
 
 async function recalculate() {
-  console.log('🔄 Recalculating from Bhilar Annex location...\n')
+  console.log('🔄 Recalculating from Kondan The Retreat location...\n')
   
   for (const update of accurateUpdates) {
     const { error } = await supabase
@@ -49,7 +49,7 @@ async function recalculate() {
     }
   }
   
-  console.log('\n🎉 All distances recalculated from Bhilar Annex!')
+  console.log('\n🎉 All distances recalculated from Kondan The Retreat!')
   console.log('📱 Refresh to see accurate distances.')
 }
 

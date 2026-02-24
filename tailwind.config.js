@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Grand Valley Resort Color Palette - Dark Blue & Golden
+        // Kondan The Retreat Color Palette - Dark Blue & Golden
         'dark-blue': {
           50: '#e6eaf5',
           100: '#b3c0e0',

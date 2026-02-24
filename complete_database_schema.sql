@@ -1,5 +1,5 @@
 -- ============================================
--- COMPLETE DATABASE SCHEMA - GRAND VALLEY RESORT
+-- COMPLETE DATABASE SCHEMA - KONDAN THE RETREAT
 -- Updated with all migrations applied
 -- ============================================
 

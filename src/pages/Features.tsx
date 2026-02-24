@@ -8,21 +8,21 @@ const Features: React.FC = () => {
   const facilities = [
     {
       title: 'COMFORT & CONVENIENCE',
-      description: 'At Grand Valley Resort, every detail is designed to ensure a comfortable, hassle-free, and relaxing stay for our guests.',
+      description: 'At Kondan The Retreat, every detail is designed to ensure a comfortable, hassle-free, and relaxing stay for our guests.',
       items: ['FREE WIFI', 'FREE PARKING', 'AC ROOMS', 'BALCONY WITH VALLEY VIEW'],
       icon: '🏨',
       gradient: 'from-blue-500/20 to-cyan-500/20'
     },
     {
       title: 'LIVING & COMMON AREAS',
-      description: 'Grand Valley Resort areas are thoughtfully designed to offer comfort, warmth, and a welcoming atmosphere where guests can relax, connect, and unwind.',
+      description: 'Kondan The Retreat areas are thoughtfully designed to offer comfort, warmth, and a welcoming atmosphere where guests can relax, connect, and unwind.',
       items: ['LAWN & OUTDOOR SEATING AREA'],
       icon: '🌳',
       gradient: 'from-green-500/20 to-emerald-500/20'
     },
     {
       title: 'RECREATION & LEISURE',
-      description: 'Grand Valley Resort offers the perfect balance of comfort, nature, and memorable experiences.',
+      description: 'Kondan The Retreat offers the perfect balance of comfort, nature, and memorable experiences.',
       items: ['SWIMMING POOL', 'VALLEY VIEW', 'RELAXATION AREA', 'INDOOR ACTIVITIES'],
       icon: '🏊',
       gradient: 'from-cyan-500/20 to-blue-500/20'
@@ -46,14 +46,14 @@ const Features: React.FC = () => {
     },
     {
       title: 'DESTINATION WEDDING',
-      description: 'Plan your dream destination wedding amidst the scenic hills and lush greenery of Mahabaleshwar at Grand Valley Resort. The resort offers beautiful outdoor lawn spaces and natural backdrops ideal for wedding ceremonies, receptions and pre-wedding functions, making your special day unforgettable in the tranquil hill-station setting.',
+      description: 'Plan your dream destination wedding amidst the scenic hills and lush greenery of Mahabaleshwar at Kondan The Retreat. The resort offers beautiful outdoor lawn spaces and natural backdrops ideal for wedding ceremonies, receptions and pre-wedding functions, making your special day unforgettable in the tranquil hill-station setting.',
       image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800',
       icon: '💒',
       featured: true
     },
     {
       title: 'INDOOR GAMES',
-      description: 'Grand Valley Resort Bhilar Annex, guests can enjoy indoor games and entertainment options as part of their stay. Typically, indoor game facilities at hill station resorts include fun, laid-back activities perfect for all ages.',
+      description: 'Kondan The Retreat, managed by Stay Nature, offers guests indoor games and entertainment options as part of their stay. Typically, indoor game facilities at hill station resorts include fun, laid-back activities perfect for all ages.',
       image: 'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=800',
       icon: '🎮',
       featured: false
@@ -151,7 +151,7 @@ const Features: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <p className="text-lg sm:text-xl max-w-2xl mx-auto">
-                Discover world-class amenities and services that make Grand Valley Resort the ultimate luxury destination in the heart of Mahabaleshwar
+                Discover world-class amenities and services that make Kondan The Retreat the ultimate luxury destination in the heart of Mahabaleshwar
               </p>
             </motion.div>
           </div>

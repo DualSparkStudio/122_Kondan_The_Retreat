@@ -39,7 +39,7 @@ exports.handler = async (event, context) => {
     }
 
     // Search for the place by name
-    const placeName = 'Grand Valley Resort Bhilar'
+    const placeName = 'Kondan The Retreat'
     const searchUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(placeName)}&key=${apiKey}`
     
     const searchResponse = await fetch(searchUrl)

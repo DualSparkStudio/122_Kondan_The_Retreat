@@ -62,7 +62,7 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ onClose }) => {
         <div className="flex items-center">
           <img 
             src="/images/GRAND VALLEY LOGO.jpg.jpeg" 
-            alt="Grand Valley Resort Logo" 
+            alt="Kondan The Retreat Logo" 
             className="h-10 w-auto mr-3"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
@@ -75,7 +75,7 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ onClose }) => {
             <span className="text-golden font-bold text-sm">GVR</span>
           </div>
           <div>
-            <h1 className="text-sm font-bold text-golden">Grand Valley Resort</h1>
+            <h1 className="text-sm font-bold text-golden">Kondan The Retreat</h1>
             <p className="text-xs text-golden/70">Admin Panel</p>
           </div>
         </div>

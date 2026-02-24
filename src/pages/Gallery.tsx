@@ -147,9 +147,9 @@ const Gallery: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Photo Gallery - Grand Valley Resort"
-        description="Explore stunning photos of Grand Valley Resort - luxury rooms, beautiful exterior views, and our restaurant in Mahabaleshwar."
-        keywords="Grand Valley Resort gallery, resort photos, Mahabaleshwar resort images, luxury resort gallery"
+        title="Photo Gallery - Kondan The Retreat"
+        description="Explore stunning photos of Kondan The Retreat - luxury rooms, beautiful exterior views, and our restaurant in Mahabaleshwar."
+        keywords="Kondan The Retreat gallery, resort photos, Mahabaleshwar resort images, luxury resort gallery"
         url="https://grandvalleyresort.com/gallery"
       />
       
@@ -167,7 +167,7 @@ const Gallery: React.FC = () => {
                 <PhotoIcon className="h-12 w-12 sm:h-16 sm:w-16 mx-auto mb-4 text-golden-300" />
                 <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">Photo Gallery</h1>
                 <p className="text-sm sm:text-base lg:text-xl max-w-2xl mx-auto leading-relaxed">
-                  Explore the beauty and elegance of Grand Valley Resort through our curated collection of photographs
+                  Explore the beauty and elegance of Kondan The Retreat through our curated collection of photographs
                 </p>
               </motion.div>
             </div>
@@ -266,7 +266,7 @@ const Gallery: React.FC = () => {
               Ready to Experience This Beauty?
             </h2>
             <p className="text-base sm:text-lg text-white/80 mb-8">
-              Book your stay and create your own beautiful memories at Grand Valley Resort
+              Book your stay and create your own beautiful memories at Kondan The Retreat
             </p>
             <Link
               to="/rooms"

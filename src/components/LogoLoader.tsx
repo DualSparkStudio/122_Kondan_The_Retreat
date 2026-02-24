@@ -22,7 +22,7 @@ const LogoLoader: React.FC<LogoLoaderProps> = ({ size = 'md', text = 'Loading...
         <div className="absolute inset-0 flex items-center justify-center">
           <img
             src="/images/GRAND VALLEY LOGO.jpg.jpeg"
-            alt="Grand Valley Resort"
+            alt="Kondan The Retreat"
             className={`${sizeClasses[size]} rounded-full object-cover p-2`}
           />
         </div>

@@ -62,7 +62,7 @@ const MaintenancePage: React.FC = () => {
               </p>
               <p className="text-lg">
                 <span className="font-semibold">📍 Location:</span> 
-                <span className="ml-2">Post Kawand, Road, Tal- Mahabaleshwar, At, Kaswand, Bhilar, Maharashtra 412805, India</span>
+                <span className="ml-2">Kondan The Retreat, Mahabaleshwar, Maharashtra 412806, India</span>
               </p>
             </div>
           </div>
