@@ -61,19 +61,20 @@ const Features: React.FC = () => {
     {
       title: 'PURE VEG FOOD',
       description: 'The resort\'s in-house pure vegetarian restaurant offers guests fresh, flavorful vegetarian meals throughout the day. It focuses on a variety of delicious veg dishes, from local Indian classics to wholesome comfort food, prepared with quality ingredients — ideal for families, couples and those who prefer vegetarian cuisine while enjoying the hills of Mahabaleshwar.',
-      image: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png',
+      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800', // TODO: Replace with new Cloudinary URL tomorrow
       icon: '🍽️',
       featured: false
     }
   ]
 
   // Restaurant Gallery Images
+  // TODO: Add new Cloudinary URLs tomorrow
   const restaurantImages = [
-    'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png',
-    'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png',
-    'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png',
-    'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/5_vop9je.png',
-    'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/4_loalg6.png',
+    // 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png',
+    // 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png',
+    // 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png',
+    // 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/5_vop9je.png',
+    // 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/4_loalg6.png',
     'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/3_apyy7q.png',
     'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431181/1_hlb5eu.png'
   ]

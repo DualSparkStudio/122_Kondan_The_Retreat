@@ -404,7 +404,7 @@ const Home: React.FC = () => {
               <div className="relative">
                 <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden">
                   <img
-                    src="https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431283/5_frweiz.png"
+                    src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800"
                     alt="Kondan The Retreat"
                     className="w-full h-full object-cover"
                   />
@@ -835,10 +835,11 @@ const Home: React.FC = () => {
                 });
                 
                 // Add restaurant images
+                // TODO: Add new Cloudinary URLs tomorrow
                 const restaurantImages = [
-                  { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png', title: 'Restaurant' },
-                  { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png', title: 'Dining Area' },
-                  { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png', title: 'Restaurant View' }
+                  // { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431184/6_krjt40.png', title: 'Restaurant' },
+                  // { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431183/9_lgexk2.png', title: 'Dining Area' },
+                  // { src: 'https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431182/7_exj2bu.png', title: 'Restaurant View' }
                 ];
                 galleryImages.push(...restaurantImages);
                 

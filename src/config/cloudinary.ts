@@ -1,6 +1,7 @@
 // Cloudinary Configuration
-export const CLOUDINARY_CLOUD_NAME = 'dvf39djml'
-export const CLOUDINARY_BASE_URL = `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}/image/upload/`
+// TODO: Add Cloudinary configuration tomorrow
+export const CLOUDINARY_CLOUD_NAME = ''
+export const CLOUDINARY_BASE_URL = ''
 
 /**
  * Generate optimized Cloudinary image URL
@@ -88,15 +89,16 @@ export const getThumbnail = (publicId: string, size: number = 300) => {
 
 /**
  * Cloudinary image paths for Kondan The Retreat
+ * TODO: Update these paths after setting up new Cloudinary account
  */
 export const CLOUDINARY_PATHS = {
   // Room types
-  DELUX_ROOM: 'Grand Valley Resort/delux room',
-  FAMILY_ROOM: 'Grand Valley Resort/Family room',
-  VALLEY_VIEW_ROOM: 'Grand Valley Resort/Valley view room',
+  DELUX_ROOM: '',
+  FAMILY_ROOM: '',
+  VALLEY_VIEW_ROOM: '',
   
   // Restaurant
-  RESTAURANT: 'Grand Valley Resort/Restaurants',
+  RESTAURANT: '',
   
   // You can add more paths as needed
 } as const
