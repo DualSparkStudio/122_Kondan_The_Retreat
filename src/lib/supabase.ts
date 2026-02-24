@@ -375,16 +375,6 @@ export const api = {
     if (error) throw error
   },
 
-  async getAllRooms() {
-    const { data, error } = await supabase
-      .from('rooms')
-      .select('*')
-      .order('room_number')
-
-    if (error) throw error
-    return data
-  },
-
   async getAvailableRooms(roomId: number, checkIn: string, checkOut: string) {
     const { data, error } = await supabase
       .from('rooms')
@@ -406,110 +396,7 @@ export const api = {
     return data
   },
 
-  async checkRoomAvailability(roomId: number, checkIn: string, checkOut: string) {
-    
-    // Check if check-in and check-out are the same date
-    if (checkIn === checkOut) {
-      return {
-        available: false,
-        reason: 'same_day_checkin_checkout',
-        conflicts: []
-      }
-    }
-    
-    // Normalize dates to avoid timezone issues
-    const normalizeDate = (dateStr: string) => {
-      const date = new Date(dateStr + 'T00:00:00')
-      return date
-    }
-    
-    const checkInDate = normalizeDate(checkIn)
-    const checkOutDate = normalizeDate(checkOut)
-    
-    // First check website bookings with more precise conflict detection
-    const { data: websiteBookings, error: websiteError } = await supabase
-      .from('bookings')
-      .select('id, check_in_date, check_out_date, booking_status, first_name, last_name')
-      .eq('room_id', roomId)
-      .in('booking_status', ['confirmed', 'pending'])
-
-    if (websiteError) {
-      throw websiteError
-    }
-
-
-    // Manually check for conflicts with more precise logic
-    const conflictingBookings = websiteBookings?.filter(booking => {
-      const bookingStart = normalizeDate(booking.check_in_date)
-      const bookingEnd = normalizeDate(booking.check_out_date)
-
-      // Check for overlap: if the booking overlaps with the requested dates
-      const hasOverlap = (
-        (bookingStart <= checkInDate && bookingEnd > checkInDate) || // Booking starts before check-in and ends after check-in
-        (bookingStart < checkOutDate && bookingEnd >= checkOutDate) || // Booking starts before check-out and ends after check-out
-        (bookingStart >= checkInDate && bookingEnd <= checkOutDate) || // Booking is completely within requested dates
-        (checkInDate >= bookingStart && checkOutDate <= bookingEnd)   // Requested dates are completely within booking
-      )
-
-      return hasOverlap
-    }) || []
-
-
-    // Check if there are any conflicting website bookings
-    if (conflictingBookings.length > 0) {
-      return {
-        available: false,
-        reason: 'website_booking_conflict',
-        conflicts: conflictingBookings
-      }
-    }
-
-    // Check for blocked dates that would conflict with the requested dates
-    const { data: blockedDates, error: blockedError } = await supabase
-      .from('blocked_dates')
-      .select('id, start_date, end_date, reason, source')
-      .eq('room_id', roomId)
-
-    if (blockedError) {
-      throw blockedError
-    }
-
-    // Check if any blocked date overlaps with the requested dates
-    // IMPORTANT: We need to check if ANY day in the check-in to check-out range is blocked
-    const conflictingBlockedDates = blockedDates?.filter(blocked => {
-      const blockedStart = normalizeDate(blocked.start_date)
-      const blockedEnd = normalizeDate(blocked.end_date)
-
-      // Check for overlap: if ANY day in the requested range falls within a blocked period
-      // A date is blocked if: checkInDate <= blockedDate < blockedEnd
-      const hasOverlap = (
-        (blockedStart <= checkInDate && blockedEnd > checkInDate) || // Blocked period includes check-in date
-        (blockedStart < checkOutDate && blockedEnd >= checkOutDate) || // Blocked period includes check-out date
-        (blockedStart >= checkInDate && blockedStart < checkOutDate) || // Blocked period starts within requested dates
-        (checkInDate >= blockedStart && checkInDate < blockedEnd)   // Check-in date falls within blocked period
-      )
-
-      return hasOverlap
-    }) || []
-
-    // If there are conflicting blocked dates, return unavailable
-    if (conflictingBlockedDates.length > 0) {
-      return {
-        available: false,
-        reason: 'blocked_date_conflict',
-        conflicts: conflictingBlockedDates
-      }
-    }
-
-    
-    return {
-      available: true,
-      reason: 'available',
-      conflicts: []
-    }
-  },
-
-    // Get admin information for footer
+  // Get admin information for footer
     async getAdminInfo(): Promise<{
       first_name: string
       last_name: string
