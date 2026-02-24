@@ -25,8 +25,8 @@ const Contact: React.FC = () => {
   const [adminContactInfo, setAdminContactInfo] = useState({
     email: 'grandvalleyresortsbhilar@gmail.com',
     phone: '+91 8275063636',
-    name: 'Grand Valley Resort Team',
-    address: 'Post kawand, road, tal- mahabaleshwer, At, Kaswand, Bhilar, Maharashtra 412805',
+    name: 'Kondan The Retreat Team',
+    address: 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
     phone2: '+91 883 011 5635',
     phone3: '+91 9405910433'
   })
@@ -39,8 +39,8 @@ const Contact: React.FC = () => {
         setAdminContactInfo({
           email: adminInfo.email || 'grandvalleyresortsbhilar@gmail.com',
           phone: adminInfo.phone || '+91 8275063636',
-          name: `${adminInfo.first_name} ${adminInfo.last_name}`.trim() || 'Grand Valley Resort Team',
-          address: adminInfo.address || 'Post kawand, road, tal- mahabaleshwer, At, Kaswand, Bhilar, Maharashtra 412805',
+          name: `${adminInfo.first_name} ${adminInfo.last_name}`.trim() || 'Kondan The Retreat Team',
+          address: adminInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
           phone2: '+91 883 011 5635',
           phone3: '+91 9405910433'
         })
@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
   const contactInfo = [
     {
       title: 'Address',
-      content: adminContactInfo.address || 'Post kawand, road, tal- mahabaleshwer, At, Kaswand, Bhilar, Maharashtra 412805',
+      content: adminContactInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
       icon: MapPinIcon,
       link: 'https://maps.google.com'
     },
@@ -158,9 +158,9 @@ const Contact: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Contact Grand Valley Resort - Get in Touch"
-        description="Contact Grand Valley Resort for bookings, inquiries, or support. Reach us via phone, email, or our contact form. We're here to help."
-        keywords="contact Grand Valley Resort, resort contact, Mahabaleshwar resort booking, Bhilar resort contact"
+        title="Contact Kondan The Retreat - Get in Touch"
+        description="Contact Kondan The Retreat for bookings, inquiries, or support. Reach us via phone, email, or our contact form. We're here to help."
+        keywords="contact Kondan The Retreat, resort contact, Mahabaleshwar resort booking"
         url="https://grandvalleyresort.com/contact"
       />
       <div className="min-h-screen bg-gray-50">
@@ -171,7 +171,7 @@ const Contact: React.FC = () => {
             <div className="text-center text-white px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto">
               <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">Contact Us</h1>
               <p className="text-sm sm:text-base lg:text-xl max-w-2xl mx-auto leading-relaxed">
-                We're here to help make your stay at Grand Valley Resort perfect. Get in touch with us anytime.
+                We're here to help make your stay at Kondan The Retreat perfect. Get in touch with us anytime.
               </p>
             </div>
           </div>
@@ -376,7 +376,7 @@ const Contact: React.FC = () => {
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                     <iframe 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14671.936717416102!2d73.7584162481834!3d17.90826147912499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc269ff80f61731%3A0xffc74f4030ef9795!2sGrand%20Valley%20Resort%20Bhilar%20Annex!5e1!3m2!1sen!2sin!4v1769187769047!5m2!1sen!2sin" 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2751064513322!2d73.50728507504827!3d18.929527982245055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd566249b7b4d3%3A0x609231805a87b078!2sKondan%20The%20Retreat!5e1!3m2!1sen!2sin!4v1771938392827!5m2!1sen!2sin" 
                       width="100%" 
                       height="450" 
                       style={{border: 0}} 
@@ -417,7 +417,7 @@ const Contact: React.FC = () => {
                       <MapPinIcon className="h-6 w-6 text-forest-800 mr-3" />
                       <div>
                         <p className="font-medium text-gray-900">Location</p>
-                        <p className="text-gray-600">{adminContactInfo.address || 'Post Kawand, Road, Tal- Mahabaleshwar, At, Kaswand, Bhilar, Maharashtra 412805'}</p>
+                        <p className="text-gray-600">{adminContactInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806'}</p>
                       </div>
                     </div>
                   </div>

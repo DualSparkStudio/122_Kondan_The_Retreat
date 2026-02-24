@@ -1,5 +1,5 @@
 -- ============================================
--- DROP ALL TABLES - GRAND VALLEY RESORT
+-- DROP ALL TABLES - KONDAN THE RETREAT
 -- WARNING: This will delete ALL data permanently!
 -- ============================================
 -- Run this script to completely remove the database schema

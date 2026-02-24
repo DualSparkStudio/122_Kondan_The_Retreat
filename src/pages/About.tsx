@@ -12,7 +12,7 @@ const About: React.FC = () => {
   const [adminContactInfo, setAdminContactInfo] = useState({
     email: 'grandvalleyresortsbhilar@gmail.com',
     phone: '+91 8275063636',
-    address: 'Post kawand, road, tal- mahabaleshwer, At, Kaswand, Bhilar, Maharashtra 412805'
+    address: 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806'
   })
 
   useEffect(() => {
@@ -35,9 +35,9 @@ const About: React.FC = () => {
   return (
     <>
       <SEO 
-        title="About Grand Valley Resort - Our Story & History"
-        description="Discover the story behind Grand Valley Resort. Learn about our history, mission, and commitment to providing luxury experiences in Mahabaleshwar."
-        keywords="about Grand Valley Resort, resort history, Mahabaleshwar resort, luxury resort, hilltop heaven"
+        title="About Kondan The Retreat - Our Story & History"
+        description="Discover the story behind Kondan The Retreat, managed by Stay Nature. Learn about our history, mission, and commitment to providing luxury experiences in Mahabaleshwar."
+        keywords="about Kondan The Retreat, resort history, Mahabaleshwar resort, luxury resort, Stay Nature"
         url="https://grandvalleyresort.com/about"
       />
       <div className="min-h-screen bg-gray-50">
@@ -46,11 +46,10 @@ const About: React.FC = () => {
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 flex items-center justify-center h-full">
             <div className="text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-              <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">Welcome to Grand Valley Resort</h1>
+              <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">Welcome to Kondan The Retreat</h1>
               <p className="text-sm sm:text-base lg:text-xl max-w-2xl mx-auto leading-relaxed">
-                Grand Valley Resort is a destination that blends comfort, nature, and modern amenities. 
-                Located near Bhilar on Kawand-Bhilar Road, our resort offers a perfect escape from the 
-                hustle and bustle of city life, surrounded by the natural beauty of the Sahyadri Range.
+                Kondan The Retreat, managed by Stay Nature, is a destination that blends comfort, nature, and modern amenities. 
+                Our resort offers a perfect escape from the hustle and bustle of city life, surrounded by the natural beauty of the Sahyadri Range.
               </p>
             </div>
           </div>
@@ -67,10 +66,10 @@ const About: React.FC = () => {
                 
                 <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base text-justify">
                   <p>
-                    Welcome to Grand Valley Resort, your serene retreat nestled in the lush valleys of Mahabaleshwar — a place where nature's calm meets thoughtful comfort. Perched at At-Kaswand, Bhilar on Kawand-Bhilar Road, our resort offers a refreshing escape from the everyday, inviting you to unwind in an environment designed for relaxation and rejuvenation amidst scenic Western Ghats beauty.
+                    Welcome to Kondan The Retreat, your serene retreat nestled in the lush valleys of Mahabaleshwar — a place where nature's calm meets thoughtful comfort. Managed by Stay Nature, our resort offers a refreshing escape from the everyday, inviting you to unwind in an environment designed for relaxation and rejuvenation amidst scenic Western Ghats beauty.
                   </p>
                   <p>
-                    At Grand Valley Resort, we believe that every stay should feel like a personal journey into peace and comfort. Our philosophy is simple: luxury with nature — a space where guests can reconnect with the outdoors without giving up the conveniences of modern living. From cool breezes and green vistas to cozy interiors and attentive service, every element is crafted to make your stay memorable.
+                    At Kondan The Retreat, we believe that every stay should feel like a personal journey into peace and comfort. Our philosophy is simple: luxury with nature — a space where guests can reconnect with the outdoors without giving up the conveniences of modern living. From cool breezes and green vistas to cozy interiors and attentive service, every element is crafted to make your stay memorable.
                   </p>
                 </div>
               </div>
@@ -78,7 +77,7 @@ const About: React.FC = () => {
               <div className="relative rounded-lg overflow-hidden shadow-lg">
                 <img
                   src="/images/Exterior (Front).PNG"
-                  alt="Grand Valley Resort - Front View"
+                  alt="Kondan The Retreat - Front View"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
@@ -99,7 +98,7 @@ const About: React.FC = () => {
               <div className="relative rounded-lg overflow-hidden shadow-lg order-2 lg:order-1">
                 <img
                   src="/images/Exterior (back).PNG"
-                  alt="Grand Valley Resort - Back View"
+                  alt="Kondan The Retreat - Back View"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
@@ -107,10 +106,10 @@ const About: React.FC = () => {
               <div className="order-1 lg:order-2">
                 <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base text-justify">
                   <p>
-                    Set against the rolling hills of the Sahyadri Range near Mahabaleshwar and Panchgani, Grand Valley Resort emerged as a nature-inspired hideaway where comfort harmonizes with breathtaking landscapes. Situated in the scenic Bhilar region, this retreat was conceived to offer travellers an escape from urban life — a place where cool mountain air, panoramic valley views, and serene surroundings become part of every stay.
+                    Set against the rolling hills of the Sahyadri Range near Mahabaleshwar and Panchgani, Kondan The Retreat emerged as a nature-inspired hideaway where comfort harmonizes with breathtaking landscapes. Managed by Stay Nature, this retreat was conceived to offer travellers an escape from urban life — a place where cool mountain air, panoramic valley views, and serene surroundings become part of every stay.
                   </p>
                   <p>
-                    Over the years, Grand Valley has grown into a favourite destination for couples, families, and nature lovers — a place where every sunrise over the hills and every quiet evening in the gardens adds a chapter to a visitor's story.
+                    Over the years, Kondan The Retreat has grown into a favourite destination for couples, families, and nature lovers — a place where every sunrise over the hills and every quiet evening in the gardens adds a chapter to a visitor's story.
                   </p>
                 </div>
               </div>
@@ -126,7 +125,7 @@ const About: React.FC = () => {
                 Resort Gallery
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Explore the beauty and elegance of Grand Valley Resort
+                Explore the beauty and elegance of Kondan The Retreat
               </p>
             </div>
             
@@ -135,7 +134,7 @@ const About: React.FC = () => {
               <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
                   src="/images/Exterior (Front).PNG"
-                  alt="Grand Valley Resort - Front Exterior"
+                  alt="Kondan The Retreat - Front Exterior"
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -147,7 +146,7 @@ const About: React.FC = () => {
               <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
                   src="/images/Exterior (back).PNG"
-                  alt="Grand Valley Resort - Back Exterior"
+                  alt="Kondan The Retreat - Back Exterior"
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -159,7 +158,7 @@ const About: React.FC = () => {
               <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
                   src="/images/exteror (night).jpg"
-                  alt="Grand Valley Resort - Night View"
+                  alt="Kondan The Retreat - Night View"
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -200,7 +199,7 @@ const About: React.FC = () => {
               </div>
               <div className="relative rounded-lg overflow-hidden shadow-lg">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14671.936717416102!2d73.7584162481834!3d17.90826147912499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc269ff80f61731%3A0xffc74f4030ef9795!2sGrand%20Valley%20Resort%20Bhilar%20Annex!5e1!3m2!1sen!2sin!4v1769187769047!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2751064513322!2d73.50728507504827!3d18.929527982245055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd566249b7b4d3%3A0x609231805a87b078!2sKondan%20The%20Retreat!5e1!3m2!1sen!2sin!4v1771938392827!5m2!1sen!2sin" 
                   width="100%" 
                   height="450" 
                   style={{border: 0}} 

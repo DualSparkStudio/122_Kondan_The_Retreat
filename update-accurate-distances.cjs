@@ -5,7 +5,7 @@ const supabaseUrl = process.env.VITE_SUPABASE_URL
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
-// Accurate distances from Bhilar (Grand Valley Resort location)
+// Accurate distances from Kondan The Retreat location
 const updates = [
   { name: 'Pratapgad Fort', distance: '35 km', travel_time: '1 hour 15 minutes', best_time: 'October to March (avoid monsoon for trekking)' },
   { name: 'Venna Lake', distance: '12 km', travel_time: '25 minutes', best_time: 'Year Round (best October to May)' },

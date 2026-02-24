@@ -114,7 +114,7 @@ const GoogleReviews: React.FC = () => {
   // Use mock data if API fails or returns no data
   const mockReviewsData: GoogleReviewsData = {
     place: {
-      name: 'Grand Valley Resort',
+      name: 'Kondan The Retreat',
       rating: 4.8,
       user_ratings_total: 150,
       formatted_address: 'Bhilar, Mahabaleshwar'

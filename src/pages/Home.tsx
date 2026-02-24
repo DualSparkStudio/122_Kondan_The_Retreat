@@ -286,9 +286,9 @@ const Home: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Grand Valley Resort - Luxury Hilltop Heaven in Mahabaleshwar"
-        description="Experience luxury and comfort at Grand Valley Resort. Book your perfect getaway in Mahabaleshwar with stunning valley views, premium amenities, and exceptional service."
-        keywords="Grand Valley Resort, Mahabaleshwar resort, Bhilar resort, luxury resort, hilltop heaven, valley view resort"
+        title="Kondan The Retreat - Luxury Hilltop Heaven in Mahabaleshwar"
+        description="Experience luxury and comfort at Kondan The Retreat, managed by Stay Nature. Book your perfect getaway in Mahabaleshwar with stunning valley views, premium amenities, and exceptional service."
+        keywords="Kondan The Retreat, Mahabaleshwar resort, luxury resort, hilltop heaven, valley view resort, Stay Nature"
         url="https://grandvalleyresort.com"
       />
       <div className="bg-cream-beige">
@@ -298,7 +298,7 @@ const Home: React.FC = () => {
             {/* Background Image with Dark Overlay */}
             <img
               src={heroImage}
-              alt="Grand Valley Resort"
+              alt="Kondan The Retreat"
               className="absolute inset-0 w-full h-full object-cover"
               style={{
                 objectFit: 'cover',
@@ -405,7 +405,7 @@ const Home: React.FC = () => {
                 <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden">
                   <img
                     src="https://res.cloudinary.com/dvf39djml/image/upload/w_auto,f_auto,q_auto/v1771431283/5_frweiz.png"
-                    alt="Grand Valley Resort"
+                    alt="Kondan The Retreat"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -416,7 +416,7 @@ const Home: React.FC = () => {
                 {/* Sub-heading */}
                 <div className="flex items-center gap-2">
                   <span className="text-golden-500 text-sm sm:text-base font-medium tracking-wider">
-                    ~ ABOUT GRAND VALLEY RESORT ~
+                    ~ ABOUT KONDAN THE RETREAT ~
                   </span>
                 </div>
 
@@ -427,7 +427,7 @@ const Home: React.FC = () => {
 
                 {/* Description */}
                 <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                  Grand Valley Resort is described as a destination where comfort meets nature, blending a relaxed, natural environment with good basic amenities. It's located near Bhilar on the Kawand-Bhilar Road, surrounded by greenery — ideal if you want a quieter, more scenic retreat away from the busiest parts of Mahabaleshwar.
+                  Kondan The Retreat, managed by Stay Nature, is described as a destination where comfort meets nature, blending a relaxed, natural environment with good basic amenities. Surrounded by greenery, it's ideal if you want a quieter, more scenic retreat away from the busiest parts of Mahabaleshwar.
                 </p>
 
                 {/* Explore More Button */}
@@ -795,7 +795,7 @@ const Home: React.FC = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
-                Explore the beauty and serenity of Grand Valley Resort through our gallery
+                Explore the beauty and serenity of Kondan The Retreat through our gallery
               </motion.p>
             </div>
 
@@ -980,7 +980,7 @@ const Home: React.FC = () => {
               <div className="order-2 lg:order-1">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14671.936717416102!2d73.7584162481834!3d17.90826147912499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc269ff80f61731%3A0xffc74f4030ef9795!2sGrand%20Valley%20Resort%20Bhilar%20Annex!5e1!3m2!1sen!2sin!4v1769187769047!5m2!1sen!2sin" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2751064513322!2d73.50728507504827!3d18.929527982245055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd566249b7b4d3%3A0x609231805a87b078!2sKondan%20The%20Retreat!5e1!3m2!1sen!2sin!4v1771938392827!5m2!1sen!2sin" 
                     width="100%" 
                     height="450" 
                     style={{border: 0}} 
@@ -1013,7 +1013,7 @@ const Home: React.FC = () => {
                               ))}
                             </span>
                           ) : (
-                            <>Grand Valley Resort Bhilar<br />Post Kawand, Road, Tal- Mahabaleshwar<br />At, Kaswand, Bhilar, Maharashtra 412805<br />India</>
+                            <>Kondan The Retreat<br />Mahabaleshwar, Maharashtra 412806<br />India</>
                           )}
                         </p>
                       </div>

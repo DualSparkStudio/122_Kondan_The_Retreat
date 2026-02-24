@@ -510,7 +510,7 @@ const TouristAttractions: React.FC = () => {
           <div className="text-center text-white px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Explore Mahabaleshwar</h1>
             <p className="text-lg sm:text-xl max-w-2xl mx-auto">
-              Discover the beautiful places to visit around Grand Valley Resort Bhilar
+              Discover the beautiful places to visit around Kondan The Retreat
             </p>
           </div>
         </div>
@@ -546,7 +546,7 @@ const TouristAttractions: React.FC = () => {
               Ready to Explore?
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Book your stay at Grand Valley Resort Bhilar and experience these amazing attractions firsthand
+              Book your stay at Kondan The Retreat and experience these amazing attractions firsthand
             </p>
             <Link
               to="/rooms"

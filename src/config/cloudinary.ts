@@ -4,7 +4,7 @@ export const CLOUDINARY_BASE_URL = `https://res.cloudinary.com/${CLOUDINARY_CLOU
 
 /**
  * Generate optimized Cloudinary image URL
- * @param publicId - The image path in Cloudinary (e.g., 'Grand Valley Resort/delux room/image1')
+ * @param publicId - The image path in Cloudinary (e.g., 'Kondan The Retreat/delux room/image1')
  * @param options - Transformation options
  * @returns Optimized image URL
  */
@@ -87,7 +87,7 @@ export const getThumbnail = (publicId: string, size: number = 300) => {
 }
 
 /**
- * Cloudinary image paths for Grand Valley Resort
+ * Cloudinary image paths for Kondan The Retreat
  */
 export const CLOUDINARY_PATHS = {
   // Room types
