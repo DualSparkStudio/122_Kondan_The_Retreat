@@ -76,7 +76,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
                 <img 
-                  src="/images/GRAND VALLEY LOGO.jpg.jpeg" 
+                  src="https://res.cloudinary.com/dulep2opr/image/upload/v1772116358/LOGO_fcrahb.jpg" 
                   alt="Kondan The Retreat Logo" 
                   className="h-16 w-auto mr-3 object-contain"
                   onError={(e) => {
@@ -188,7 +188,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center mb-4">
                 <img 
-                  src="/images/GRAND VALLEY LOGO.jpg.jpeg" 
+                  src="https://res.cloudinary.com/dulep2opr/image/upload/v1772116358/LOGO_fcrahb.jpg" 
                   alt="Kondan The Retreat Logo" 
                   className="h-12 w-auto mr-3 object-contain"
                   onError={(e) => {
@@ -306,7 +306,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="mt-8 pt-8 border-t border-gray-200">
             <div className="flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center text-xs sm:text-sm text-gray-600">
               <div className="flex flex-wrap justify-center sm:justify-start sm:items-center gap-x-4 gap-y-2">
-                <span>© 2025 Kondan The Retreat. Managed by Stay Nature. All rights reserved.</span>
+                <span>© 2025 Kondan The Retreat. Managed by <span className="font-semibold text-forest-600">Stay Nature</span>. All rights reserved.</span>
                 <span className="text-gray-400">•</span>
                 <span className="text-golden-500 hover:text-golden-600 font-medium transition-colors duration-200">
                   <a href="/policy">Privacy Policy & Terms</a>

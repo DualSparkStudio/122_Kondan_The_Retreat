@@ -396,6 +396,17 @@ const Home: React.FC = () => {
           </div>
         </div>
 
+        {/* Stay Nature Credit */}
+        <div className="bg-forest-50 py-3">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <p className="text-sm text-forest-600">
+                Managed by <span className="font-semibold text-forest-700">Stay Nature</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* About Us Section */}
         <div className="py-12 sm:py-16 lg:py-20 bg-white relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1014,7 +1025,7 @@ const Home: React.FC = () => {
                               ))}
                             </span>
                           ) : (
-                            <>Kondan The Retreat<br />Mahabaleshwar, Maharashtra 412806<br />India</>
+                            <>Kondan The Retreat<br />Maval, Pune, Maharashtra 411037<br />India</>
                           )}
                         </p>
                       </div>

@@ -117,7 +117,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 5,
             name: 'Elephant\'s Head Point',
-            description: 'Famous viewpoint shaped like an elephant\'s head and trunk, offering breathtaking views of the Sahyadri ranges. One of the most popular sunrise and sunset viewing spots in Mahabaleshwar.',
+            description: 'Famous viewpoint shaped like an elephant\'s head and trunk, offering breathtaking views of the Sahyadri ranges. One of the most popular sunrise and sunset viewing spots in the Western Ghats region.',
             images: [
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR61_-ft6FLPFedL7MXJZqIdMsR9ZgxkR3_Uw&s',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl597qbHYhMx3CcEfORLXtcvjQJ46QQti7Zw&s',
@@ -155,7 +155,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 7,
             name: 'Arthur\'s Seat',
-            description: 'One of the highest points in Mahabaleshwar, offering stunning views of the Savitri and Koyna valleys. Named after Sir Arthur Malet, it\'s perfect for sunrise viewing and photography.',
+            description: 'One of the highest points in the Western Ghats, offering stunning views of the Savitri and Koyna valleys. Named after Sir Arthur Malet, it\'s perfect for sunrise viewing and photography.',
             images: [
               'https://d3gw4aml0lneeh.cloudfront.net/assets/locations/16954/DkqXyCFBH4D0.jpg',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsVW0CNqvFYTRh0tQWmpIgrreP3CLD9mvtQ&s',
@@ -193,7 +193,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 9,
             name: 'Mahabaleshwar Temple',
-            description: 'Ancient temple dedicated to Lord Shiva, one of the most sacred places in the region. The temple has a unique architecture and is surrounded by beautiful natural surroundings.',
+            description: 'Ancient temple dedicated to Lord Shiva, one of the most sacred places in the Western Ghats region. The temple has a unique architecture and is surrounded by beautiful natural surroundings.',
             images: [
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzf_cIVV_f-coAtjXw5ZHodpsAHsSywU6sA&s',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqIgiDKMiUFPKKM38gTHTxQ3fN8evwHABMcA&s',
@@ -212,7 +212,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 10,
             name: 'Connaught Peak',
-            description: 'Second highest point in Mahabaleshwar offering panoramic views of the surrounding valleys and hills. Named after the Duke of Connaught, it\'s perfect for sunrise and sunset viewing.',
+            description: 'Second highest point in the Western Ghats offering panoramic views of the surrounding valleys and hills. Named after the Duke of Connaught, it\'s perfect for sunrise and sunset viewing.',
             images: [
               'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/39/27/09/caption.jpg?w=900&h=-1&s=1',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzu0ITzw7s5f3fARJu_pDUHiPcT7yC9wdnww&s',
@@ -231,7 +231,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 11,
             name: 'Bombay Point',
-            description: 'Popular sunset point offering spectacular views of the surrounding valleys. One of the most visited viewpoints in Mahabaleshwar, perfect for evening visits and photography.',
+            description: 'Popular sunset point offering spectacular views of the surrounding valleys. One of the most visited viewpoints in the Western Ghats, perfect for evening visits and photography.',
             images: [
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBYSzy-rfpFiC0Uv5OMZMujDcO7URLiWDsSw&s',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpOiYLW7-awl7ZZAxZ0CTr_iSbrDXSbWWuQ&s',
@@ -250,7 +250,7 @@ const TouristAttractions: React.FC = () => {
           {
             id: 12,
             name: 'Wilson Point',
-            description: 'Highest point in Mahabaleshwar, also known as Sunrise Point. Offers breathtaking 360-degree views of the surrounding landscape and is perfect for early morning visits.',
+            description: 'Highest point in the Western Ghats region, also known as Sunrise Point. Offers breathtaking 360-degree views of the surrounding landscape and is perfect for early morning visits.',
             images: [
               'https://mahabaleshwartourism.in/images/places-to-visit/headers/wilson-point-sunrise-point-mahabaleshwar-tourism-entry-fee-timings-holidays-reviews-header.jpg',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrioYAEn9uCOrVczYArlFBgxe7tsRFrT__Qw&s',

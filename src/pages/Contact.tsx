@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
     email: 'grandvalleyresortsbhilar@gmail.com',
     phone: '+91 8275063636',
     name: 'Kondan The Retreat Team',
-    address: 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
+    address: 'Kondan The Retreat, Maval, Pune, Maharashtra 411037',
     phone2: '+91 883 011 5635',
     phone3: '+91 9405910433'
   })
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
           email: adminInfo.email || 'grandvalleyresortsbhilar@gmail.com',
           phone: adminInfo.phone || '+91 8275063636',
           name: `${adminInfo.first_name} ${adminInfo.last_name}`.trim() || 'Kondan The Retreat Team',
-          address: adminInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
+          address: adminInfo.address || 'Kondan The Retreat, Maval, Pune, Maharashtra 411037',
           phone2: '+91 883 011 5635',
           phone3: '+91 9405910433'
         })
@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
   const contactInfo = [
     {
       title: 'Address',
-      content: adminContactInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806',
+      content: adminContactInfo.address || 'Kondan The Retreat, Maval, Pune, Maharashtra 411037',
       icon: MapPinIcon,
       link: 'https://maps.google.com'
     },
@@ -417,7 +417,7 @@ const Contact: React.FC = () => {
                       <MapPinIcon className="h-6 w-6 text-forest-800 mr-3" />
                       <div>
                         <p className="font-medium text-gray-900">Location</p>
-                        <p className="text-gray-600">{adminContactInfo.address || 'Kondan The Retreat, Mahabaleshwar, Maharashtra 412806'}</p>
+                        <p className="text-gray-600">{adminContactInfo.address || 'Kondan The Retreat, Maval, Pune, Maharashtra 411037'}</p>
                       </div>
                     </div>
                   </div>
