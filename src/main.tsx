@@ -53,7 +53,7 @@ window.addEventListener('error', (event) => {
     event.target instanceof HTMLImageElement &&
     (event.message?.includes('404') || 
      event.message?.includes('Failed to load') ||
-     event.target.src?.includes('logo.png') ||
+     event.target.src?.includes('LOGO_fcrahb.jpg') ||
      event.target.src?.includes('Exterior'))
   ) {
     event.preventDefault()

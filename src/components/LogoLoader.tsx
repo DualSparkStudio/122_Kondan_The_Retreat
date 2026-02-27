@@ -21,7 +21,7 @@ const LogoLoader: React.FC<LogoLoaderProps> = ({ size = 'md', text = 'Loading...
         {/* Logo in center */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
-            src="/images/GRAND VALLEY LOGO.jpg.jpeg"
+            src="https://res.cloudinary.com/dulep2opr/image/upload/v1772116358/LOGO_fcrahb.jpg"
             alt="Kondan The Retreat"
             className={`${sizeClasses[size]} rounded-full object-cover p-2`}
           />
